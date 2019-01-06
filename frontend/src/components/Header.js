@@ -9,6 +9,14 @@ class Header extends Component {
     return (
       <div className="flex pa1 justify-between nowrap orange">
         <div className="flex flex-fixed black">
+          <img
+            alt="Hacker News Logo"
+            className="mr1"
+            src="https://news.ycombinator.com/y18.gif"
+            width="18"
+            height="18"
+            style={{ border: '1px solid white' }}
+          />
           <div className="fw7 mr1">Hacker News</div>
           <Link to="/" className="ml1 no-underline black">
             new
